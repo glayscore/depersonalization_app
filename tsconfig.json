@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "lib": ["es2019", "es2020.promise", "es2020.string"],
+        "target": "es2019",
+        "noImplicitAny": true,
+        "outDir": "./dist",
+        "sourceMap": true,
+        "rootDir": "./src",
+        "moduleResolution": "node",
+        "allowJs": true
+    },
+    "include": ["src/**/*"]
+}

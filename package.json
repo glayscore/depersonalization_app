@@ -1,0 +1,32 @@
+{
+    "name": "depersonalization_app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start:generate": "ts-node ./src/app.ts",
+        "start:sync": "ts-node ./src/sync.ts",
+        "start:full-reindex": "ts-node ./src/sync.ts --full-reindex",
+        "build": "prettier --write 'src/**/*.ts' && tsc",
+        "lint": "prettier --check .",
+        "lint:fix": "prettier --write ."
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^18.16.3",
+        "@types/yargs": "^17.0.24",
+        "prettier": "^2.8.8",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.4"
+    },
+    "dependencies": {
+        "@faker-js/faker": "^7.6.0",
+        "@types/faker": "^6.6.9",
+        "@types/mongoose": "^5.11.97",
+        "dotenv": "^16.0.3",
+        "faker": "^6.6.6",
+        "mongoose": "^7.1.0",
+        "yargs": "^17.7.2"
+    }
+}
