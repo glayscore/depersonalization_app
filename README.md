@@ -10,7 +10,7 @@
 ## Установка
 1. Клонируйте репозиторий:
 ```sh
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/glayscore/depersonalization_app.git
 ```
 2. Перейдите в директорию проекта:
 ```sh
